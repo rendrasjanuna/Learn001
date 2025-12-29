@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #3FA77F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.form input {
+  width: 75%;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 4px;
+  border: none;
+  border-bottom: 2px solid #888;
+  outline: none;
+  background: transparent;
+  font-size: 17px;
+}
+.form input:focus {
+  border-bottom-color: indianred;
+}
+.btn {
+  width: 50%;
+  font-size: 15px;
+  padding: 10px 0;
+  border-radius: 20px;
+  border: none;
+  background-color: rosybrown;
+  margin-bottom: 5px;
+  color: white;
+  transition: background-color 0.3s,  transform 0.1s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: mediumvioletred;
+}
+#particlecanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
